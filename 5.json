@@ -1,6 +1,10 @@
 {
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
+  "logo": "https://qixing.myhkw.com/tw.jpg",
+  "warningText": "小辛:提醒大家:勿信广告，欢迎收看",
+
   "sites": [
-  {
+    {
       "key": "tx",
       "name": "小辛🔹SVIP4k少儿",
       "type": 3,
@@ -12,7 +16,7 @@
       "ext": "http://yp2.mftv.top/js/tx.js",
       "timeout": 38
     },
-  {
+    {
       "key": "热播影视",
       "name": "小辛☀热播┃高峰换源",
       "type": 3,
@@ -53,7 +57,7 @@
     },
     {
       "key": "柠檬",
-      "name": 小辛"☀柠檬┃秒播",
+      "name": "小辛☀柠檬┃秒播",
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
@@ -94,37 +98,37 @@
       "timeout": 50
     },
     {
-            "key": "爱奇艺资源",
-            "name": "小辛🔹VIP爱奇艺",
-            "type": 1,
-            "api": "https://iqiyizyapi.com/api.php/provide/vod",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "国产剧",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "惊悚片",
-                "家庭片",
-                "古装片",
-                "历史片",
-                "悬疑片",
-                "犯罪片",
-                "灾难片",
-                "记录片",
-                "短片",
-                "香港剧",
-                "大陆综艺",
-                "短剧",
-                "国产动漫",
-            ]
-        },
+      "key": "爱奇艺资源",
+      "name": "小辛🔹VIP爱奇艺",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "国产剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "惊悚片",
+        "家庭片",
+        "古装片",
+        "历史片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
+        "记录片",
+        "短片",
+        "香港剧",
+        "大陆综艺",
+        "短剧",
+        "国产动漫"
+      ]
+    },
     {
       "key": "暴风资源",
       "name": "🧿小辛🔹VIP暴风采集",
@@ -147,7 +151,7 @@
         "纪录片",
         "香港剧",
         "国产动漫",
-        "大陆综艺",
+        "大陆综艺"
       ],
       "timeout": 38
     },
