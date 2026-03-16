@@ -1,28 +1,6 @@
 {
   "sites": [
   {
-            "key": "蜡笔小辛",
-            "name": "小辛♻️会员专享⭕️勿信任何广告♨️",
-            "type": 3,
-            "api": "csp_DouDou",
-            "jar": "http://rihou.cc:555/nzk/nzkk.jar",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-    {
-      "key": "yimi_languang",
-      "name": "⛳️小辛🔹SVIP会员尊享",
-      "type": 3,
-      "api": "csp_Wwys",
-      "jar": "https://img2.gelonghui.com/library/c4def-29ea7616-d551-4a73-9b31-cace1447426d.png;md5;c4def4496c2e1a0959c8fedfaff41488",
-      "ext": "https://vip.wwgz.cn:5200",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "timeout": 38
-    },
-    {
       "key": "tx",
       "name": "小辛🔹SVIP4k少儿",
       "type": 3,
@@ -33,6 +11,54 @@
       "api": "http://yp2.mftv.top/drpy_libs/drpy2.min.js",
       "ext": "http://yp2.mftv.top/js/tx.js",
       "timeout": 38
+    },
+  {
+      "key": "热播影视",
+      "name": "小辛☀热播┃高峰换源",
+      "type": 3,
+      "jar": "https://wp.kayyw.com/f/d/zo65hv/wn.jpg",
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "瓜子影视",
+      "name": "小辛☀瓜子┃影视",
+      "type": 3,
+      "jar": "https://wp.kayyw.com/f/d/zo65hv/wn.jpg",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "国产剧",
+        "海外剧",
+        "动漫",
+        "综艺",
+        "短剧"
+      ]
+    },
+    {
+      "key": "农民影视",
+      "name": "小辛☀农民┃影视",
+      "type": 3,
+      "jar": "https://wp.kayyw.com/f/d/3D9MuO/%E5%86%9C%E6%B0%91.jpg",
+      "api": "csp_Wwys",
+      "ext": "https://vip.wwgz.cn:5200"
+    },
+    {
+      "key": "柠檬",
+      "name": 小辛"☀柠檬┃秒播",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
     },
     {
       "key": "配置中心2",
@@ -65,36 +91,40 @@
       "ext": {
         "sp": "ZhiZhen"
       },
-      "timeout": 48
+      "timeout": 50
     },
     {
-      "key": "duoduo4k",
-      "name": "🧿小辛🔹SVIP多多4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "sp": "DuoDuo"
-      },
-      "timeout": 38
-    },
-    {
-      "key": "天天",
-      "name": "🔵小辛🔹VIP天天秒播",
-      "type": 3,
-      "api": "csp_TTian",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 1,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-      "ext": "7lj763gg0939791h1l3888jig44gi291li",
-      "timeout": 38
-    },
+            "key": "爱奇艺资源",
+            "name": "小辛🔹VIP爱奇艺",
+            "type": 1,
+            "api": "https://iqiyizyapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "国产剧",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "惊悚片",
+                "家庭片",
+                "古装片",
+                "历史片",
+                "悬疑片",
+                "犯罪片",
+                "灾难片",
+                "记录片",
+                "短片",
+                "香港剧",
+                "大陆综艺",
+                "短剧",
+                "国产动漫",
+            ]
+        },
     {
       "key": "暴风资源",
       "name": "🧿小辛🔹VIP暴风采集",
@@ -106,6 +136,7 @@
       "searchable": 1,
       "changeable": 1,
       "categories": [
+        "国产剧",
         "动作片",
         "科幻片",
         "战争片",
@@ -114,16 +145,9 @@
         "剧情片",
         "喜剧片",
         "纪录片",
-        "国产剧",
         "香港剧",
-        "台湾剧",
         "国产动漫",
-        "港台动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "海外动漫",
         "大陆综艺",
-        "港台综艺"
       ],
       "timeout": 38
     },
@@ -143,13 +167,29 @@
       "timeout": 38
     },
     {
+      "key": "labi4k",
+      "name": "🧿小辛🔹SVIP蜡笔4K",
+      "type": 3,
+      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
+      "api": "csp_AweSomeGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "Labi"
+      },
+      "timeout": 38
+    },
+    {
       "key": "360",
-      "name": "🧿小辛🔹VIP360zy",
+      "name": "🧿小辛🔹VIP360zy采集",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod?",
       "searchable": 1,
       "changeable": 0,
       "categories": [
+        "国产剧",
         "动作片",
         "喜剧片",
         "爱情片",
@@ -161,8 +201,6 @@
         "悬疑片",
         "金片",
         "灾难片",
-        "国产剧",
-        "香港剧",
         "大陆综艺",
         "国产动漫",
         "现代都市",
@@ -173,21 +211,6 @@
         "成长逆袭",
         "反转爽剧"
       ],
-      "timeout": 38
-    },
-    {
-      "key": "labi4k",
-      "name": "🌀小辛🔹SVIP蜡笔4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "sp": "Labi"
-      },
       "timeout": 38
     },
     {
@@ -218,7 +241,7 @@
     },
     {
       "key": "如意资源",
-      "name": "🍀 🧿小辛🔹VIP如意 | ",
+      "name": "🧿小辛🔹VIP如意采集 ",
       "type": 1,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/",
       "playUrl": "",
@@ -227,19 +250,14 @@
       "searchable": 1,
       "changeable": 1,
       "categories": [
+        "国产剧",
         "动作片",
         "科幻片",
         "战争片",
         "恐怖片",
-        "国产剧",
         "香港剧",
-        "台湾剧",
-        "日韩剧",
         "动画电影",
         "国产动漫",
-        "港台动漫",
-        "日韩动漫",
-        "欧美动漫",
         "大陆综艺",
         "港台综艺"
       ],
