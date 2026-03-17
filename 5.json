@@ -6,7 +6,7 @@
   "sites": [
     {
       "key": "tx",
-      "name": "小辛🔹SVIP4k少儿",
+      "name": "小辛♦️解析失败点换源🔷少儿",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -17,17 +17,28 @@
       "timeout": 38
     },
     {
-      "key": "热播影视",
-      "name": "小辛☀热播┃高峰换源",
+  "key": "yimi_languang",
+  "name": "小辛🔹高峰期点换源♦️农民影视",
+  "type": 3,
+  "api": "csp_Wwys",
+  "jar": "https://img2.gelonghui.com/library/c4def-29ea7616-d551-4a73-9b31-cace1447426d.png;md5;c4def4496c2e1a0959c8fedfaff41488",
+  "ext": "https://vip.wwgz.cn:5200",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+      "key": "天天",
+      "name": "小辛♦️高峰期点换源天天",
       "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/zo65hv/wn.jpg",
-      "api": "csp_AppRJ",
+      "api": "csp_TTian",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "filterable": 0,
-      "ext": {
-        "url": "http://v.rbotv.cn"
-      }
+      "changeable": 1,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+      "ext": "7lj763gg0939791h1l3888jig44gi291li",
+      "timeout": 30
     },
     {
       "key": "瓜子影视",
@@ -48,16 +59,8 @@
       ]
     },
     {
-      "key": "农民影视",
-      "name": "小辛☀农民┃影视",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/3D9MuO/%E5%86%9C%E6%B0%91.jpg",
-      "api": "csp_Wwys",
-      "ext": "https://vip.wwgz.cn:5200"
-    },
-    {
       "key": "柠檬",
-      "name": "小辛☀柠檬┃秒播",
+      "name": "小辛♦️高峰期换源🔹柠檬┃秒播",
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
@@ -131,7 +134,7 @@
     },
     {
       "key": "暴风资源",
-      "name": "🧿小辛🔹VIP暴风采集",
+      "name": "小辛♦️高峰期点换源🔹暴风",
       "type": 1,
       "api": "https://bf.xoxowin86cisyap.com/api.php/provide/vod/",
       "playUrl": "",
@@ -187,7 +190,7 @@
     },
     {
       "key": "360",
-      "name": "🧿小辛🔹VIP360zy采集",
+      "name": "小辛♦️高峰期点换源360zy采集",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod?",
       "searchable": 1,
@@ -218,17 +221,6 @@
       "timeout": 38
     },
     {
-      "key": "csp_Gz360",
-      "name": "🧿小辛🔹SVIP瓜子秒播",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "jar": "https://tv.菜妮丝.top/jar/feimao0731.jar;md5;4bb05945b726cf06209fb3b562f6aa83",
-      "timeout": 38
-    },
-    {
       "key": "huban4k",
       "name": "🧿小辛🔹SVIP虎斑4K",
       "type": 3,
@@ -245,7 +237,7 @@
     },
     {
       "key": "如意资源",
-      "name": "🧿小辛🔹VIP如意采集 ",
+      "name": "小辛♦️高峰期换源🔹如意 ",
       "type": 1,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/",
       "playUrl": "",
@@ -269,7 +261,7 @@
     },
     {
       "key": "csp_Bili",
-      "name": "小辛🔹哔哩合集🪅少儿动画",
+      "name": "小辛♦️哔哩少儿🪅专用",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
