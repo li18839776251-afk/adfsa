@@ -1,18 +1,19 @@
 {
-  "notice": "🌳小辛长期维护更新，🌿祝你观看愉快🍀。",
+  "notice": "⛳️永久维护更新🌀欢迎使用🌀",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "logo": "https://qixing.myhkw.com/tw.jpg",
-"lives":[{
-            "name": "小辛🌀清舒直播1",
-            "type": 0,
-            "url": "http://38.75.136.137:88/api/tvlist.php",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
+  "lives": [
+    {
+      "name": "小辛🌀清舒直播1",
+      "type": 0,
+      "url": "http://38.75.136.137:88/api/tvlist.php",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+      "playerType": 2,
+      "timeout": 10
+    },
+    {
       "name": "小辛🌀墨盒直播",
       "type": 0,
       "url": "https://gitee.com/yuan301/tv/raw/master/A/tv.png",
@@ -22,33 +23,23 @@
       "timeout": 10,
       "playerType": 2
     },
-        {
+    {
       "name": "小辛🌀央卫直播台2",
       "type": 0,
       "url": "https://ds65.tv1288.xyz",
       "ua": "okhttp/3.15",
       "playerType": 2
     },
-        {
-            "name": "小辛🌀最强央卫3",
-            "type": 0,
-            "url": "https://gitee.com/fuleishu/fulei/raw/master/zhiboceshi/iptv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0,okHttp/Mod-1.0.0",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "小辛🌀超清测试3",
-            "type": 0,
-            "url": "https://gh-proxy.com/raw.githubusercontent.com/fuleishu/ceshi/refs/heads/main/ceshi123.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "playerType": 2,
-            "timeout": 10
-        },
+    {
+      "name": "小辛🌀超清测试3",
+      "type": 0,
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/fuleishu/ceshi/refs/heads/main/ceshi123.m3u",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+      "playerType": 2,
+      "timeout": 10
+    },
     {
       "name": "小辛🌀直播4",
       "type": 0,
@@ -111,140 +102,61 @@
       "timeout": 25
     },
     {
-    "name": "小辛🌀直播低调哥10",
-    "url": "https://cloud.7so.top/f/voRpCA/%E4%BD%8E%E8%B0%83.txt",
-    "header": {
+      "name": "小辛🌀直播低调哥10",
+      "url": "https://cloud.7so.top/f/voRpCA/%E4%BD%8E%E8%B0%83.txt",
+      "header": {
         "User-Agent": "okhttp/3.12.13"
-    }
-},
-{
-    "name": "小辛🌀直播11经典功夫",
-    "url": "https://mpimg.cn/down.php/9963477845a8528a2dfa31caf72da150.txt",
-    "header": {
+      }
+    },
+    {
+      "name": "小辛🌀直播11经典功夫",
+      "url": "https://mpimg.cn/down.php/9963477845a8528a2dfa31caf72da150.txt",
+      "header": {
         "User-Agent": "okhttp/3.12.13"
-    }
-},
-{
-    "name": "小辛🌀直播12 备用",
-    "url": "https://5266.kstore.space/xiangxichuanshuo.txt",
-    "header": {
+      }
+    },
+    {
+      "name": "小辛🌀直播12 备用",
+      "url": "https://5266.kstore.space/xiangxichuanshuo.txt",
+      "header": {
         "User-Agent": "okhttp/3.12.13"
+      }
     }
-},{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext="]}]}],"sites":[
-{
-      "key": "wogg4k",
-      "name": "小辛🌀玩偶4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
+  ],
+  "sites": [    {
+      "key": "360",
+      "name": "小辛🌀360采集",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod?",
       "searchable": 1,
-      "quickSearch": 0,
       "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "sp": "Wogg"
-      },
-      "timeout": 10
-    },
-{
-      "key": "duoduo4k",
-      "name": "小辛🌀多多4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 0,
-      "ext": {
-        "sp": "DuoDuo"
-      },
-      "timeout": 20
-    },
-    {
-      "key": "配置中心2",
-      "name": "配置🌀中心",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 0,
-      "changeable": 1,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      },
-      "ext": {
-        "sp": "Config"
-      },
-      "timeout": 10
+      "categories": [     
+        "国产剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "古装片",
+        "悬疑片",
+        "金片",
+        "灾难片",
+        "香港剧",
+        "大陆综艺",
+        "国产动漫",
+        "现代都市",
+        "脑洞悬疑",
+        "年代穿越",
+        "古装仙侠",
+        "女频恋爱",
+        "成长逆袭",
+        "反转爽剧"
+      ]
     },
     {
-      "key": "zhizhen4k",
-      "name": "小辛🌀至臻4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "sp": "ZhiZhen"
-      },
-      "timeout": 20
-    },
-    {
-      "key": "huban4k",
-      "name": "小辛🌀虎斑4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "sp": "HuBan"
-      },
-      "timeout": 20
-    },
-    {
-      "key": "erxiao4k",
-      "name": "小辛🌀二小4K",
-      "type": 3,
-      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
-      "api": "csp_AweSomeGuard",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "sp": "ErXiao"
-      },
-      "timeout": 20
-    },
-    {
-      "key": "芒果",
-      "name": "小辛🌀芒果4K",
-      "type": 3,
-      "api": "https://gitee.com/wmmoliill/asfvsaFvsaFvs/raw/master/lib/drpy2.min.js",
-      "ext": "https://gitee.com/wmmoliill/asfvsaFvsaFvs/raw/master/lib/js/gmg.js"
-    },
-    {
-      "key": "hipy_js_百忙无果",
-      "name": "小辛🌀芒果TV",
-      "type": 3,
-      "api": "http://125.208.22.184:6698/uploads/tvbox/jsguan/drpy_dzlive/drpy_libs/drpy2.min.js",
-      "playerType": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "http://125.208.22.184:6698/uploads/tvbox/js/百忙无果[官].js"
-    },
-    {
-      "key": "天天",
+      "key": "热播",
       "name": "小辛🌀热播剧",
       "type": 3,
       "api": "csp_TTian",
@@ -281,7 +193,54 @@
         "国产动漫",
         "大陆综艺"
       ]
-},
+    },  
+      {"key":"虎牙资源",
+"name":"小辛🌀虎牙资源",
+"type":1,
+"api":"https://www.huyaapi.com/api.php/provide/vod/",
+"searchable":1,
+"quickSearch":1,
+"filterable":1,
+"categories":[
+"内地剧",
+"动作片",
+"科幻片",
+"战争片",
+"喜剧片",
+"爱情片",
+"恐怖片",
+"犯罪片",
+"剧情片",
+"冒险片",
+"记录片",
+"短剧",
+"韩剧",
+"香港剧",
+"台湾剧",
+"欧美剧",
+"体育赛事",
+"综艺",
+"动画片",
+"中国动漫"]},   
+    {
+      "key": "hipy_js_百忙无果",
+      "name": "小辛🌀芒果TV",
+      "type": 3,
+      "api": "http://125.208.22.184:6698/uploads/tvbox/jsguan/drpy_dzlive/drpy_libs/drpy2.min.js",
+      "playerType": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "http://125.208.22.184:6698/uploads/tvbox/js/百忙无果[官].js"
+    },
+    {
+      "key": "芒果",
+      "name": "小辛🌀芒果4K",
+      "type": 3,
+      "api": "https://gitee.com/wmmoliill/asfvsaFvsaFvs/raw/master/lib/drpy2.min.js",
+      "ext": "https://gitee.com/wmmoliill/asfvsaFvsaFvs/raw/master/lib/js/gmg.js"
+    },
     {
       "key": "柠檬",
       "name": "小辛🌀柠檬",
@@ -302,36 +261,19 @@
       "jar": "http://47.120.41.246:8025/vip/jar/ouge.php"
     },
     {
-      "key": "360",
-      "name": "小辛🌀360采集",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod?",
+      "key": "糯米",
+      "name": "小辛🌀糯米",
+      "type": 3,
+      "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
+      "api": "csp_AweSomeGuard",
       "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "古装片",
-        "悬疑片",
-        "金片",
-        "灾难片",
-        "国产剧",
-        "香港剧",
-        "大陆综艺",
-        "国产动漫",
-        "现代都市",
-        "脑洞悬疑",
-        "年代穿越",
-        "古装仙侠",
-        "女频恋爱",
-        "成长逆袭",
-        "反转爽剧"
-      ]
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "sp": "Nmys"
+      },
+      "timeout": 15,
+      "changeable": 1
     },
     {
       "key": "csp_Gz360",
@@ -343,7 +285,7 @@
       "filterable": 0,
       "jar": "https://tv.菜妮丝.top/jar/feimao0731.jar;md5;4bb05945b726cf06209fb3b562f6aa83",
       "changeable": 1,
-      "timeout": 30
+      "timeout": 10
     },
     {
       "key": "暴风资源",
@@ -356,11 +298,23 @@
       "searchable": 1,
       "changeable": 1,
       "categories": null,
-      "timeout": 30
+      "timeout": 10
+    },
+    {
+      "name": "小辛🌀短剧",
+      "key": "短剧",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "genre": "shortdrama",
+      "jar": "https://jihulab.com/yoursmile2/TVBox/-/raw/master/custom_spider.jar"
     },
     {
       "key": "bili",
-      "name": "小辛🧿哔哩合集",
+      "name": "小辛🧿哔哩合集🌛",
       "type": 3,
       "jar": "https://wp.kayyw.com/f/d/mo63h9/dy.jpg",
       "api": "csp_AweSomeGuard",
@@ -375,12 +329,12 @@
         "sp": "Bili",
         "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
       },
-      "timeout": 20,
+      "timeout": 10,
       "changeable": 1
     },
     {
       "key": "csp_Bili",
-      "name": "小辛🌀哔哩合集",
+      "name": "小辛🌀哔哩合集🌜",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -388,19 +342,56 @@
       "filterable": 1,
       "jar": "https://gitee.com/YW66/ZL/raw/master/xuexi.jar",
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json",
-      "timeout": 38
-    }],
-    "parses":[
-    {
-  "name": "小辛🌀芒果4k",
-  "type": 1,
-  "url": "http://mg.itufm.top/mg.php?url=",
-  "ext": {
-    "flag": ["disabled"],
-    "header": {
-      "User-Agent": "okhttp/4.9.1"
+      "timeout": 10
     }
-  }
-}
+  ],
+  "parses": [    {
+  "name": "小辛🌀神仙1",
+  "url": "https://www.ckplayer.vip/jiexi/?url=",
+  "showType": 1
+}, 
+    {
+      "name": "小辛🌀芒果TV2",
+      "type": 1,
+      "url": "http://mg.itufm.top/mg.php?url=",
+      "ext": {
+        "flag": ["disabled"],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "小辛🌀虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "小辛🌀虾米备用",
+      "type": 0,
+      "url": "https://jx.xmflv.cc/?url="
+    },
+    {
+      "name": "小辛🌀冰豆",
+      "type": 0,
+      "url": "https://bd.jx.cn/?url="
+    },
+    {
+      "name": "小辛🌀盘古",
+      "type": 0,
+      "url": "https://www.playm3u8.cn/jiexi.php?url="
+    },
+    {
+      "name": "小辛🌀CK",
+      "type": 0,
+      "url": "http://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "小辛🌀8090",
+      "type": 0,
+      "url": "https://www.8090g.cn/jiexi/?url="
+    }
   ]
 }
+
+    
