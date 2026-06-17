@@ -1,15 +1,15 @@
 {
-    "notice": "勿信广告🌀欢迎使用🌀小辛影院",
+    "notice": "勿信广告🐉欢迎使用.",
     "wallpaper": "https://wp.upx8.com/api.php",
-    "lives": [             {
-    "name": "小辛🐉专用直播",
+    "lives": [     {
+    "name": "小辛🐉央卫直播",
     "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/pXwXk5hh",
     "header": {
-        "User-Agent": "okhttp/3.12.13"
+        "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
     }
-},               
+},         
         {
-            "name": "小辛🌍CCTV台1",
+            "name": "小辛🌍CCTV台",
             "type": 0,
             "url": "http://38.75.136.137:88/api/tvlist.php",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
@@ -19,18 +19,14 @@
             "timeout": 10
         },
         {
-      "name": "小辛🌀艺星直播",
-      "type": 0,
-      "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/flJXkBCm",
-      "playerType": 3,
-      "ua": "okhttp/3.15",
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp2.112114.xyz/logo/{name}.png",
-      "changeable": 0,
-      "timeout": 25
-    },
+    "name": "小辛🐉专用艺星",
+    "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/flJXkBCm",
+    "header": {
+        "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
+    }
+},                 
         {
-            "name": "小辛🌀直播3",
+            "name": "小辛🐉直播",
             "type": 0,
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1",
             "playerType": 3,
@@ -41,7 +37,7 @@
             "timeout": 25
         },
         {
-            "name": "小辛🌀直播4",
+            "name": "小辛🐉直播",
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
             "playerType": 3,
@@ -50,21 +46,19 @@
             "logo": "http://diyp2.112114.xyz/logo/{name}.png",
             "changeable": 0,
             "timeout": 25
-        },
-        {
-            "name": "小辛🌀直播5经典功夫",
-            "url": "https://mpimg.cn/down.php/9963477845a8528a2dfa31caf72da150.txt",
-            "header": {
-                "User-Agent": "okhttp/3.12.13"
-            }
-        },
-        {
-            "name": "小辛🌀直播6 备用",
-            "url": "https://5266.kstore.space/xiangxichuanshuo.txt",
-            "header": {
-                "User-Agent": "okhttp/3.12.13"
-            }
-        }
+        },        {
+    "name": "小辛🐉经典",
+    "url": "https://mpimg.cn/down.php/9963477845a8528a2dfa31caf72da150.txt",
+    "header": {
+        "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
+    }
+},        {
+    "name": "小辛🐉备用",
+    "url": "https://5266.kstore.space/xiangxichuanshuo.txt",
+    "header": {
+        "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
+    }
+}       
     ],
     "sites": [
         {
@@ -104,7 +98,7 @@
         },
         {
             "key": "csp_woog3",
-            "name": "小辛🍏专享4K,",
+            "name": "小辛🐉专享4K,",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
@@ -124,7 +118,7 @@
         },
         {
             "key": "装歌",
-            "name": "小辛💚专用4K",
+            "name": "小辛🐉专用4K",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
@@ -144,7 +138,7 @@
         },
         {
             "key": "csp_星钻",
-            "name": "小辛🥬影院4k",
+            "name": "小辛🐉尊享4k",
             "type": 3,
             "changeable": "0",
             "api": "csp_Duopan",
@@ -173,18 +167,6 @@
             "jar": "https://cdn2.wemiaow.com/20260401232042-14-Vwa30U.jpg;md5;59bcc1aa8c1ecf7d08a282ac63705ab3",
             "ext": "https://vip.wwgz.cn:5200"
         },           
-        {
-            "key": "hipy_js_百忙无果",
-            "name": "小辛🌀芒果TV",
-            "type": 3,
-            "api": "http://125.208.22.184:6698/uploads/tvbox/jsguan/drpy_dzlive/drpy_libs/drpy2.min.js",
-            "playerType": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "http://125.208.22.184:6698/uploads/tvbox/js/百忙无果[官].js"
-        },
         {
             "key": "如意 资源",
             "name": "小辛🌀如意",
