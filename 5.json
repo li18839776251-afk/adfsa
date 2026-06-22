@@ -1,13 +1,16 @@
 {
     "notice": "勿信广告🐉欢迎使用.",
     "wallpaper": "https://wp.upx8.com/api.php",
-    "lives": [    {
-    "name": "小辛🐉专用直播",
-    "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/83RXsXZR",
-    "header": {
-        "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
-    }
-},         
+    "lives": [   {
+            "name": "小辛🐉CCTV台1",
+            "type": 0,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/whOXqvn4",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "playerType": 2,
+            "timeout": 10
+        },     
         {
             "name": "小辛🌍CCTV台",
             "type": 0,
@@ -17,7 +20,18 @@
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
             "playerType": 2,
             "timeout": 10
-        },     
+        },    
+             {
+      "name": "小辛🌀艺星直播",
+      "type": 0,
+      "url": "https://d.kstore.dev/download/16371/yixing.txt",
+      "playerType": 3,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png",
+      "changeable": 0,
+      "timeout": 25
+    },
         {
             "name": "小辛🐉直播",
             "type": 0,
@@ -108,7 +122,8 @@
                     "threads": 16
                 }
             }
-        },{
+        },
+        {
     "key": "csp_星钻",
     "name": "小辛🐉尊享4k",
     "type": 3,
@@ -154,38 +169,33 @@
         }
     }
 },
-        {
-            "key": "csp_Wwys",
-            "name": "小辛🌀农民",
-            "type": 3,
-            "api": "csp_Wwys",
-            "jar": "https://cdn2.wemiaow.com/20260401232042-14-Vwa30U.jpg;md5;59bcc1aa8c1ecf7d08a282ac63705ab3",
-            "ext": "https://vip.wwgz.cn:5200"
-        },           
-        {
-            "key": "如意 资源",
-            "name": "小辛🌀如意",
-            "type": 1,
-            "api": "https://cj.rycjapi.com/api.php/provide/vod/",
-            "playUrl": "",
-            "quickSearch": 0,
-            "filterable": 0,
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "国产剧",
-                "动作片",
-                "科幻片",
-                "战争片",
-                "恐怖片",
-                "香港剧",
-                "动画电影",
-                "国产动漫",
-                "大陆综艺",
-                "港台综艺"
-            ],
-            "timeout": 20
-        },    {
+ {
+      "key": "天天",
+      "name": "小辛🧿热播剧",
+      "type": 3,
+      "api": "csp_TTian",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 1,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+      "ext": "7lj763gg0939791h1l3888jig44gi291li",
+      "timeout": 10
+    },  
+    {
+      "key": "如意 资源",
+      "name": "小辛🔹如意",
+      "type": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/",
+      "playUrl": "",
+      "quickSearch": 0,
+      "filterable": 0,
+      "searchable": 1,
+      "changeable": 1,
+      "categories": ["动作片", "科幻片", "战争片", "恐怖片", "国产剧", "香港剧", "台湾剧", "日韩剧", "动画电影", "国产动漫", "港台动漫", "大陆综艺", "港台综艺"],
+      "timeout": 30
+    }, 
+           {
       "key": "csp_xml_百度",
       "name": "百度❤资源",
       "type": 1,
@@ -218,35 +228,31 @@
         "国产动漫",
         "大陆综艺"
       ]
-    },
-    {
-      "key": "csp_xml_光速",
-      "name": "光速❤资源",
+    },{
+      "key": "电影天堂资源",
+      "name": "🧿小辛🔹天堂",
       "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
-      "searchable": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
       "quickSearch": 1,
       "filterable": 1,
-      "playerType": 2,
-      "categories": [    
-        "大陆剧",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
         "动作片",
-        "喜剧片",
         "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
         "战争片",
-        "记录片",
-        "动漫电影",
-        "欧美剧",
-        "港澳剧",
-        "韩剧",
-        "体育赛事",
+        "恐怖片",
+        "香港剧",
+        "动画电影",
         "国产动漫",
-        "大陆综艺"
-      ]
-    },
+        "大陆综艺",
+        "港台综艺"
+      ],
+      "timeout": 20
+    },  
+    {  "key":"独播库","name":"小辛🌀独播库","type":3,"api":"https://wget.la/https://raw.githubusercontent.com/tushen6/Tattoo/refs/heads/main/OK/JS/独播库.js","changeable":1},      
         {
             "key": "柠檬",
             "name": "小辛🌀柠檬",
