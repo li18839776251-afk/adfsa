@@ -21,7 +21,13 @@
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
             "playerType": 2,
             "timeout": 10
-        },  
+        }, 
+         {
+      "name": "小辛🐉平台直播",
+      "type": 0,
+      "url": "http://47.120.41.246:8025/vip/jar/zb.php",
+      "playerType": 1
+    },
              {
       "name": "小辛🌀艺星直播",
       "type": 0,
@@ -167,7 +173,32 @@
             "threads": 16
         }
     }
-},
+},    {
+      "key": "csp_Gz360",
+      "name": "小辛♻️瓜子秒播",
+      "type": 3,
+      "timeout": 12,
+      "searchable": 1,
+      "quickSearch": 0,
+      "jar": "https://13291.kstore.space/gz.jar",
+      "api": "csp_Gz360"
+    },
+  {
+      "key": "csp_农民",
+      "name": "小辛♻️农民",
+      "type": 3,
+      "api": "csp_Wwys",
+      "timeout": 12,
+      "jar": "https://13291.kstore.space/gz.jar",
+      "ext": "https://vip.wwgz.cn:5200"
+    },
+{
+      "key": "金牌",
+      "name": "小辛🐉金牌",
+      "type": 3,
+      "api": "https://13291.kstore.space/gangge/drpy2.min.js",
+      "ext": "https://13291.kstore.space/lib/%E9%87%91%E7%89%8C%E5%BD%B1%E8%A7%86.js"
+    },
  {
       "key": "天天",
       "name": "小辛🧿热播剧",
@@ -263,7 +294,87 @@
             "playerType": 2,
             "jar": "https://ncstatic-file.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-        },    
+        },          {
+      "key": "csp_pys",
+      "name": "小辛🥇金牌",
+      "type": 3,
+      "timeout": 12,
+      "searchable": 1,
+      "quickSearch": 0,
+      "api": "csp_Jpys",
+      "ext": "https://y2s52n7.com",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "csp_wy",
+      "name": "小辛🔥农民",
+      "type": 3,
+      "api": "csp_Wwys",
+      "ext": "https://vip.wwgz.cn:5200",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "csp_G360",
+      "name": "小辛🔥瓜子┃影视",
+      "type": 3,
+      "timeout": 12,
+      "searchable": 1,
+      "quickSearch": 0,
+      "api": "csp_Gz360",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "麦田",
+      "name": "小辛🔥麦田",
+      "type": 3,
+      "api": "csp_AppV6",
+      "ext": "http://172.247.227.203:25321/mtys.php",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "听心99",
+      "name": "小辛🔥欣欣",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "https://api.12321app.com/api",
+        "LoginPath": "/app/log",
+        "version": "0b4328287a5d953e",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "2.8.1",
+        "name": "听心视频",
+        "package": "com.iksp.adsys.jjsp",
+        "buildNumber": "2001",
+        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
+      },
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "3QQQ",
+      "name": "小辛🔥大鹅",
+      "type": 3,
+      "timeout": 15,
+      "api": "csp_App3Q",
+      "ext": "https://asd123sx23xdacsx.top",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
+    {
+      "key": "顾我99",
+      "name": "小辛🔥顾我",
+      "type": 3,
+      "api": "csp_App99",
+      "ext": {
+        "host": "http://117.50.200.113:19987/app/bn",
+        "LoginPath": "/app/log",
+        "appkey": "040f9b1bc5e942569b5c3e63943306ab",
+        "versionName": "4.3.1",
+        "name": "顾我追剧",
+        "package": "com.guwozhuijux.app",
+        "buildNumber": "2001",
+        "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
+      },
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+    },
           {
       "key": "小镇",
       "name": "小辛🎂小镇",
@@ -451,26 +562,7 @@
         "编码": "UTF-8",
         "分类url": "https://www.ylys.tv/;;!H"
       }
-    },      
-        {
-            "key": "Gz360",
-            "name": "瓜子🌀影视",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "csp_Gz360",
-            "jar": "https://img2.gelonghui.com/library/28e33-d7f6e0ad-8de5-4829-b42c-bcdeaae1ed42.png;md5;28e33eb59669c994ca140064ad4a1eef"
-        },
-        {
-            "key": "瓜子影视",
-            "name": "小辛🌀瓜子",
-            "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "http://47.120.41.246:8025/vip/jar/ouge.php"
-        }
+    }       
     ],
     "parses": [{
       "name": "M3U8",
