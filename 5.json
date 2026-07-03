@@ -21,7 +21,7 @@
      {
             "name": "小辛🐉CCTV台1",
             "type": 0,
-            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/QBHx3w0w",
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/fTBxqCUn",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
@@ -37,7 +37,17 @@
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
             "playerType": 2,
             "timeout": 10
-        }, 
+        }, {
+      "name": "直播小辛🌍CCTV🐉",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "playerType": 3,
+      "ua": "okhttp/3.15",
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp2.112114.xyz/logo/{name}.png",
+      "changeable": 0,
+      "timeout": 25
+    },
          {
       "name": "小辛🐉平台直播3",
       "type": 0,
@@ -72,18 +82,9 @@
     "header": {
         "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
     }
-},     {
-            "name": "小辛🐉国内直播7",
-            "type": 0,
-            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/8U8xiuMv",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "playerType": 2,
-            "timeout": 10
-        },    
+},     
    {
-    "name": "小辛🐉备用8",
+    "name": "小辛🐉备用7",
     "url": "https://5266.kstore.space/xiangxichuanshuo.txt",
     "header": {
         "User-Agent": "Mozilla/5.0 (Android 14; Mobile) AppleWebKit/537.36 Chrome/124.0.0.0 Mobile Safari/537.36"
@@ -91,34 +92,36 @@
 }       
     ],
     "sites": [{
-            "key": "电影天堂",
-            "name": "小辛🥝天堂",
-            "type": 1,
-            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 10,
-            "categories": [
-                "国产剧",
-                "动作片",
-                "科幻片",
-                "爱情片",
-                "战争片",
-                "喜剧片",
-                "恐怖片",
-                "剧情片",
-                "香港剧",
-                "短剧",
-                "欧美剧",
-                "国产动漫",
-                "大陆综艺"
-              ],
-    "ext": {
-        "广告过滤": "div.fixed,div.float,div.pop,div[contains(text(),澳门)],div[contains(text(),博彩)],script[src*=ad]"
-    }
-},      
+         "api" : "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
+         "categories" : [
+            "国产剧",
+            "喜剧片",
+            "动作片",
+            "爱情片",
+            "科幻片",
+            "恐怖片",
+            "剧情片",
+            "战争片",
+            "香港剧",
+            "韩国剧",
+            "欧美剧",
+            "大陆综艺",
+            "国产动漫",
+            "体育",
+            "足球",
+            "篮球",
+            "网球",
+            "斯诺克",
+            "短剧"           
+         ],
+         "filterable" : 1,
+         "key" : "非凡5",
+         "name" : "小辛♻️非凡",
+         "playerType" : 2,
+         "quickSearch" : 1,
+         "searchable" : 1,
+         "type" : 1
+      },           
     {
       "key": "csp_Gz瓜子",
       "name": "小辛♻️瓜子",
@@ -128,7 +131,7 @@
       "quickSearch": 0,
       "jar": "https://13291.kstore.space/gz.jar",
       "api": "csp_Gz360"
-    },
+    },       
     {
       "key": "csp_农民",
       "name": "小辛♻️农民",
@@ -144,19 +147,18 @@
       "type": 3,
       "api": "https://13291.kstore.space/gangge/drpy2.min.js",
       "ext": "https://13291.kstore.space/lib/%E9%87%91%E7%89%8C%E5%BD%B1%E8%A7%86.js"
-    },
-      {
-      "key": "hipy_js_百忙无果",
-      "name": "小辛♻️芒果【少儿】",
+    }, {
+      "key": "csp_360",
+      "name": "小辛🐉360《动画》",
       "type": 3,
-      "api": "http://125.208.22.184:6698/uploads/tvbox/jsguan/drpy_dzlive/drpy_libs/drpy2.min.js",
-      "playerType": 3,
+      "api": "csp_SP360",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "filterable": 1,
-      "order_num": 0,
-      "ext": "http://125.208.22.184:6698/uploads/tvbox/js/百忙无果[官].js"
-    },      
+      "jar": "https://gitee.com/YW66/ZL/raw/master/xuexi.jar",
+      "ext": "",
+      "timeout": 30
+    },
     {
       "key": "奇异果",
       "name": "小辛♻️爱奇艺【少儿】",
@@ -219,29 +221,6 @@
                 }
             }
         },
-        {
-    "key": "csp_星钻",
-    "name": "小辛🐉尊享4k",
-    "type": 3,
-    "changeable": "1",
-    "api": "csp_Duopan",
-    "filterable": 1,
-    "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0401/23/4583aa8faf27a6c64c4c60a3852b4dbb.jpg;md5;b15a066025da4ed00e30ebbea1785681",
-    "ext": {
-        "site_urls": [
-            "shturl.cc/48h3xIohWVS",
-            "https://woog.nxog.eu.org",
-            "https://woog.430520.xyz",
-            "https://ogkk.nxog.fun",
-            "https://ogkk.nxog.eu.org"
-        ],
-        "url_key": "wogg1",
-        "threadinfo": {
-            "chunksize": 474,
-            "threads": 16
-        }
-    }
-},     
  {
       "key": "天天",
       "name": "小辛🧿热播剧",
@@ -349,51 +328,7 @@
       "quickSearch": 0,
       "api": "csp_Gz360",
       "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },    
-    {
-      "key": "听心99",
-      "name": "小辛🔥欣欣",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "https://api.12321app.com/api",
-        "LoginPath": "/app/log",
-        "version": "0b4328287a5d953e",
-        "appkey": "a0a18659a9977a47e53442cd084b536c",
-        "versionName": "2.8.1",
-        "name": "听心视频",
-        "package": "com.iksp.adsys.jjsp",
-        "buildNumber": "2001",
-        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
-      },
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "3QQQ",
-      "name": "小辛🔥大鹅",
-      "type": 3,
-      "timeout": 15,
-      "api": "csp_App3Q",
-      "ext": "https://asd123sx23xdacsx.top",
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
-    {
-      "key": "顾我99",
-      "name": "小辛🔥顾我",
-      "type": 3,
-      "api": "csp_App99",
-      "ext": {
-        "host": "http://117.50.200.113:19987/app/bn",
-        "LoginPath": "/app/log",
-        "appkey": "040f9b1bc5e942569b5c3e63943306ab",
-        "versionName": "4.3.1",
-        "name": "顾我追剧",
-        "package": "com.guwozhuijux.app",
-        "buildNumber": "2001",
-        "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
-      },
-      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
-    },
+    },            
           {
       "key": "小镇",
       "name": "小辛🎂小镇",
@@ -431,18 +366,10 @@
     "ext": {
         "广告过滤": "div.fixed,div.float,div.pop,div[contains(text(),澳门)],div[contains(text(),博彩)],script[src*=ad]"
     }
-},    
-    {
-      "key": "csp_Wwys",
-      "name": "农民🐉蓝光",
-      "type": 3,
-      "api": "csp_Wwys",
-      "jar": "https://img2.gelonghui.com/library/c4def-29ea7616-d551-4a73-9b31-cace1447426d.png;md5;c4def4496c2e1a0959c8fedfaff41488",
-      "ext": "https://vip.wwgz.cn:5200"
-    },
+},       
     {
         "key": "暴風",
-        "name": "小辛🦔暴風",
+        "name": "小辛🐉暴風",
         "type": 1,
         "api": "https://bfzyapi.com/api.php/provide/vod",
         "searchable": 1,
@@ -618,14 +545,9 @@
       "name": "小辛🐉爱奇艺1⃣",
       "type": 1,
       "url": "http://52.163.202.210:8808/jhjson/daoyongsiquanjia.php?url="
-    },
-    {
-      "name": "小辛🐉芒果2⃣",
-      "type": 1,
-      "url": "http://nsys.hundong.xyz/api/?key=EdG87gW0IDYarx9ry5&url="
-    }, 
+    },   
      {
-			"name": "小辛🐉极速3⃣",
+			"name": "小辛🐉极速2⃣",
 			"type": 0,
 			"url": "https://jx.2s0.cn/player/?url=",
 			"ext": {
@@ -654,16 +576,36 @@
 					}
 				}
 			}
-		},  
-        {
-      "name": "小辛🐉ikun",
+		},
+		 {
+      "name": "小辛🐉m3u8",
       "type": 0,
-      "url": "https://jx.hls.one/?url="
+      "url": "https://jx.m3u8.tv/jiexi/?url="
+    },
+		{
+      "name": "小辛🐉虾米1",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
     },
     {
+      "name": "小辛🐉虾米2",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jx/jx.php?url="
+    },
+		 {
+			"name": "小辛🐉华勇",
+			"type": 0,
+			"url": "https://huayong.net/999/?v="
+		},	
+		{
       "name": "小辛🐉虾米3",
       "type": 0,
       "url": "https://jx.xmflv.cc/?url="
+    },    	
+    	{
+      "name": "小辛🐉ikun",
+      "type": 0,
+      "url": "https://jx.hls.one/?url="
     }    
   ]
 }
