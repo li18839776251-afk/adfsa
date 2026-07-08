@@ -92,15 +92,13 @@
             }
         }
     ],
-    "sites": [
-    {
-            "key": "csp_农民1",
-            "name": "小辛♻️农民",
-            "type": 3,
-            "api": "csp_Wwys",
-            "timeout": 12,
-            "jar": "https://13291.kstore.space/gz.jar",
-            "ext": "https://vip.wwgz.cn:5200",
+    "sites": [{
+      "key": "csp_wy",
+      "name": "小辛🔥农民",
+      "type": 3,
+      "api": "csp_Wwys",
+      "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php",
+      "ext": "https://vip.wwgz.cn:5200",   
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -110,9 +108,9 @@
                 "连续剧",
                 "综艺",
                 "动漫",
-                "短剧"
+                "短剧"               
             ]
-        },        
+        },            
         {
             "key": "天天热播",
             "name": "小辛🐉热播",
@@ -167,8 +165,8 @@
                 "少儿",
                 "音乐"
             ]
-        },
-                    {
+        },                
+      {
   "key": "js_芒果",
   "name": "小辛🐉芒果《少儿》",
   "type": 3,
@@ -275,6 +273,19 @@
       "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
     },
     {
+			"key": "农民",
+			"name": "小辛🧿农民",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0418/17/1d9136626610437ab0cac0dbe262d1ed.png;md5;4D860D06EC233DBCB891B76055F099D5",
+			"ext": {
+				"副标题": "小辛影院",
+				"请求头": "User-Agent$MOBILE_UA",
+				"编码": "UTF-8",
+				"分类url": "https://vip.wwgz.cn:5200/;;!H"
+			}
+		},    
+    {
       "key": "七味影院",
       "name": "小辛🚡七味",
       "type": 3,
@@ -311,7 +322,20 @@
       "type": 3,
       "jar": "https://lz.qaiu.top/parser?url=https://wwbsd.lanzouu.com/iUGFg3oxz9ch&pwd=5dxa",
       "api": "csp_Qiyou"
-    },        
+    },  
+      {
+			"key": "农民",
+			"name": "小辛🧿农民",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "https://ncstatic.clewm.net/rsrc/2026/0418/17/1d9136626610437ab0cac0dbe262d1ed.png;md5;4D860D06EC233DBCB891B76055F099D5",
+			"ext": {
+				"副标题": "小辛影院",
+				"请求头": "User-Agent$MOBILE_UA",
+				"编码": "UTF-8",
+				"分类url": "https://vip.wwgz.cn:5200/;;!H"
+			}
+		},        
     {
       "key": "大师兄",
       "name": "小辛🐵师兄",
@@ -513,7 +537,7 @@
       "name": "小辛🐉芒果",
       "type": 1,
       "url": "http://111.170.140.70:1332/?url="
-    }, 
+    },         
     {
         "name": "小辛🐉极速",
         "type": 0,
